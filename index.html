@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Interativa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            background: #d2b48c;
+            color: #4b3b30;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 90%;
+            max-width: 400px;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .widget {
+            background: rgba(75, 59, 48, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        .widget:hover {
+            background: rgba(75, 59, 48, 1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Bora pra Trip?</div>
+        <div class="widget" onclick="location.href='https://www.worldpackers.com/pt-BR/promo/FAUSTINO10?utm_campaign=FAUSTINO10&utm_medium=referral&utm_source=affiliate'">- Onde + Bora</div>
+        <div class="widget" onclick="location.href='https://shopee.com.br/roberton.faustino'">Minha lojinha na Shopee</div>
+    </div>
+</body>
+</html>
